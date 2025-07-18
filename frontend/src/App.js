@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import './App.css';
 import Pagination from './components/Pagination';
 
-const API_URL = 'http://localhost:4000';
+const API_URL = 'https://leaderboard-backend-h3a5.onrender.com/';
 
 function getInitials(name) {
   return name
